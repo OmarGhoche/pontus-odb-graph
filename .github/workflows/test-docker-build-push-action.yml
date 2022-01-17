@@ -11,10 +11,10 @@ jobs:
 
     steps:
     
-      - name: V1
-        uses: docker/build-push-action@v1
-        with:
-          x: true
+#      - name: V1
+#        uses: docker/build-push-action@v1
+#        with:
+#          x: true
           
       - name: V2
         uses: docker/build-push-action@v2
